@@ -4,7 +4,7 @@ import { Background } from './Background'
 import Loading from './Loading'
 import Footer from './Footer'
 
-const backendapi = "https://roadmap-kohl-gamma.vercel.app/"
+const backendapi = "https://roadmap-1.vercel.app/"
 
 export default function LearningPage() {
     const [learningTopic, setLearningTopic] = useState('')
