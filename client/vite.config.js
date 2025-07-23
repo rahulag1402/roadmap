@@ -5,7 +5,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://roadmapper-backend.onrender.com',
+        target: 'https://roadmap-1.vercel.app/',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }
